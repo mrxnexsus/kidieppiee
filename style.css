@@ -11,11 +11,6 @@
             color: black;
             margin-bottom: 20px;
         }
-        #dropdownContainer {
-            display: inline-block; /* Menjadikan elemen sejajar dengan tombol "Go" */
-            margin-bottom: 20px;
-        }
-
 
         label {
             display: block;
