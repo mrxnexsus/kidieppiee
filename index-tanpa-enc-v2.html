@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made By kiddie</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        select,
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #data-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin: 15px 0;
+        }
+
+        /* Loading animation */
+        .loading-spinner {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+            display: none;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url(https://jkt48.primesse.me/images/top_background.png)">
+    <h1>Made By kiddie</h1>
+    <!-- Dropdown menu for member selection -->
+    <label for="memberDropdown">Pilih Member:</label>
+    <select id="memberDropdown">
+        <option value="Adel">Adel</option>
+        <option value="Alya">Alya</option>
+        <option value="Amanda">Amanda</option>
+        <option value="Anindya">Anindya</option>
+        <option value="Ashel">Ashel</option>
+        <option value="Callie">Callie</option>
+        <option value="Cathy">Cathy</option>
+        <option value="Chelsea">Chelsea</option>
+        <option value="Chika">Chika</option>
+        <option value="Christy">Christy</option>
+        <option value="Cynthia">Cynthia</option>
+        <option value="Daisy">Daisy</option>
+        <option value="Danella">Danella</option>
+        <option value="Eli">Eli</option>
+        <option value="Elin">Elin</option>
+        <option value="Ella">Ella</option>
+        <option value="Feni">Feni</option>
+        <option value="Fiony">Fiony</option>
+        <option value="Flora">Flora</option>
+        <option value="Freya">Freya</option>
+        <option value="Gendis">Gendis</option>
+        <option value="Gita">Gita</option>
+        <option value="Gracia">Gracia</option>
+        <option value="Gracie">Gracie</option>
+        <option value="Greesel">Greesel</option>
+        <option value="Indah">Indah</option>
+        <option value="Indira">Indira</option>
+        <option value="Jeane">Jeane</option>
+        <option value="Jessi">Jessi</option>
+        <option value="Kathrina">Kathrina</option>
+        <option value="Lia">Lia</option>
+        <option value="Lulu">Lulu</option>
+        <option value="Lyn">Lyn</option>
+        <option value="Marsha">Marsha</option>
+        <option value="Michie">Michie</option>
+        <option value="Muthe">Muthe</option>
+        <option value="Olla">Olla</option>
+        <option value="Oniel">Oniel</option>
+        <option value="Raisha">Raisha</option>
+        <option value="Shani">Shani</option>
+        <option value="Zee">Zee</option>
+    </select>
+    <button onclick="redirectToMember()">Go</button>
+    <div id="data-container"></div>
+    <div class="loading-spinner" id="loadingSpinner"></div>
+
+    <script>
+        alert("pake wifi aja deh!!!!!!");
+        const dataContainer = document.getElementById('data-container');
+
+        // Fungsi untuk memeriksa apakah sudah mencapai bagian bawah
+        const isAtBottom = () => {
+            return dataContainer.scrollTop + dataContainer.clientHeight >= dataContainer.scrollHeight;
+        };
+
+        // Tambahkan event listener untuk event scroll
+        dataContainer.addEventListener('scroll', async () => {
+            // Jika sudah mencapai bagian bawah, lakukan permintaan data selanjutnya
+            if (isAtBottom()) {
+                await fetchData();
+            }
+        });
+
+        const showLoadingSpinner = () => {
+            loadingSpinner.style.display = 'block';
+        };
+
+        const hideLoadingSpinner = () => {
+            loadingSpinner.style.display = 'none';
+        };
+
+        const createMessageElement = (message, prevAuthor) => {
+            const date = new Date(message.createdAt).toLocaleString('en-US', {
+                timeZone: 'Asia/Jakarta',
+                hour12: false
+            });
+
+            const chatItem = document.createElement("li");
+            chatItem.className = "list-group-item";
+            chatItem.id = "chat-item";
+
+            const format = message.format;
+            const content = message.message;
+            const authorName = message.author ? message.author.nickname : 'Unknown';
+
+            // Check if the source of the message has changed
+            if (prevAuthor !== authorName) {
+                const lineSeparator = document.createElement("hr");
+                chatItem.appendChild(lineSeparator);
+
+                const nicknameHeader = document.createElement("p");
+                nicknameHeader.innerHTML = `<strong>${authorName}</strong>`;
+                chatItem.appendChild(nicknameHeader);
+            }
+
+            if (format === "text") {
+                chatItem.innerHTML += `
+                    ${content} <p class="date" style="text-align: right;">${date}</p>
+                `;
+            } else if (format === "image") {
+                chatItem.innerHTML += `
+                    <img onerror="this.src='${content}'" src="${content}" style="width: 200px; height: auto;">
+                    <div style="display: flex; margin-top: 10px">
+                        <a href="${content}" target="_blank" class="btn btn-success date btn-sm">Download</a>
+                        <p class="date" style="margin-left:auto;">${date}</p>
+                    </div>
+                `;
+            } else if (format === "audio") {
+                chatItem.innerHTML += `
+                    <audio onerror="this.src='${content}'" controls src="${content}"></audio>
+                    <div style="display: flex; margin-top: 10px">
+                        <a href="${content}" target="_blank" class="btn btn-success date btn-sm">Download</a>
+                        <p class="date" style="margin-left:auto;">${date}</p>
+                    </div>
+                `;
+            }
+
+            return chatItem;
+        };
+
+        let nextToken = null;
+
+        const fetchData = async () => {
+            try {
+                showLoadingSpinner();
+
+                const API_KEY = 'da2-e3ybp4cw2vgdlgmie3byhf4ohe';
+                const GRAPHQL_URL = 'https://xzqpphzvbzhzvpke6ojjzvbpjq.appsync-api.ap-southeast-1.amazonaws.com/graphql';
+                const LIMIT = 10;
+
+                do {
+                    const graphqlQuery = `
+                        query MessagesByUpdateAt($nextToken: String, $limit: Int) {
+                            messagesByUpdateAt(type: "message", sortDirection: DESC, limit: $limit, nextToken: $nextToken) {
+                                items {
+                                    id
+                                    message
+                                    channelId
+                                    createdAt
+                                    updatedAt
+                                    userMessagesId
+                                    type
+                                    author {
+                                        givenName
+                                        familyName
+                                        nickname
+                                        profileImage
+                                    }
+                                    format
+                                }
+                                nextToken
+                            }
+                        }
+                    `;
+
+                    const response = await fetch(GRAPHQL_URL, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'x-api-key': API_KEY,
+                        },
+                        body: JSON.stringify({
+                            query: graphqlQuery,
+                            variables: {
+                                nextToken,
+                                limit: LIMIT,
+                            },
+                        }),
+                    });
+
+                    const data = await response.json();
+
+                    const messages = data.data.messagesByUpdateAt.items;
+                    nextToken = data.data.messagesByUpdateAt.nextToken;
+
+                    messages.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+                    messages.forEach(message => {
+                        const messageElement = createMessageElement(message);
+                        dataContainer.appendChild(messageElement);
+                    });
+                } while (nextToken);
+
+                hideLoadingSpinner();
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                hideLoadingSpinner();
+            }
+        };
+
+        const redirectToMember = () => {
+            const memberDropdown = document.getElementById('memberDropdown');
+            const selectedMember = memberDropdown.value;
+
+            if (selectedMember !== "#") {
+                const redirectURL = `https://kiddii.vercel.app/${encodeURIComponent(selectedMember)}/`;
+                window.location.href = redirectURL;
+            } else {
+                alert("Pilihlah anggota terlebih dahulu.");
+            }
+        };
+
+        fetchData();
+    </script>
+</body>
+
+</html>
