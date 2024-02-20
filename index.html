@@ -22,6 +22,31 @@
         alert("pake wifi aja deh!!!!!!");
         const dataContainer = document.getElementById('data-container');
 
+              // Fungsi untuk menyertakan dropdown.html ke dalam index.html
+        function includeDropdown() {
+            const dropdownContainer = document.getElementById('dropdownContainer');
+
+            // Buat objek XMLHttpRequest untuk memuat konten dropdown.html
+            const xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        // Isi dropdownContainer dengan isi dropdown.html
+                        dropdownContainer.innerHTML = xhr.responseText;
+                    } else {
+                        console.error('Failed to load dropdown.html');
+                    }
+                }
+            };
+
+            // Mulai memuat dropdown.html
+            xhr.open('GET', 'dropdown.html', true);
+            xhr.send();
+        }
+
+        // Panggil fungsi untuk menyertakan dropdown.html
+        includeDropdown();
+
         // Fungsi untuk memeriksa apakah sudah mencapai bagian bawah
         const isAtBottom = () => {
             return dataContainer.scrollTop + dataContainer.clientHeight >= dataContainer.scrollHeight;
