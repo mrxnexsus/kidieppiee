@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made By kiddie</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+
+
+<body style="background-image: url(https://jkt48.primesse.me/images/top_background.png)">
+    <h1>Made By kiddie</h1>
+    
+    <!-- Sertakan file dropdown.html -->
+    <link rel="import" href="dropdown.html">
+    <button onclick="redirectToMember()">Go</button>
+    <div id="data-container"></div>
+    <div class="loading-spinner" id="loadingSpinner"></div>
+
+    <script>
+        alert("pake wifi aja deh!!!!!!");
+        const dataContainer = document.getElementById('data-container');
+
+        // Fungsi untuk memeriksa apakah sudah mencapai bagian bawah
+        const isAtBottom = () => {
+            return dataContainer.scrollTop + dataContainer.clientHeight >= dataContainer.scrollHeight;
+        };
+
+        // Tambahkan event listener untuk event scroll
+        dataContainer.addEventListener('scroll', async () => {
+            // Jika sudah mencapai bagian bawah, lakukan permintaan data selanjutnya
+            if (isAtBottom()) {
+                await fetchData();
+            }
+        });
+
+        const showLoadingSpinner = () => {
+            loadingSpinner.style.display = 'block';
+        };
+
+        const hideLoadingSpinner = () => {
+            loadingSpinner.style.display = 'none';
+        };
+
+        const createMessageElement = (message, prevAuthor) => {
+            const date = new Date(message.createdAt).toLocaleString('en-US', {
+                timeZone: 'Asia/Jakarta',
+                hour12: false
+            });
+
+            const chatItem = document.createElement("li");
+            chatItem.className = "list-group-item";
+            chatItem.id = "chat-item";
+
+            const format = message.format;
+            const content = message.message;
+            const authorName = message.author ? message.author.nickname : 'Unknown';
+
+            // Check if the source of the message has changed
+            if (prevAuthor !== authorName) {
+                const lineSeparator = document.createElement("hr");
+                chatItem.appendChild(lineSeparator);
+
+                const nicknameHeader = document.createElement("p");
+                nicknameHeader.innerHTML = `<strong>${authorName}</strong>`;
+                chatItem.appendChild(nicknameHeader);
+            }
+
+            if (format === "text") {
+                chatItem.innerHTML += `
+                    ${content} <p class="date" style="text-align: right;">${date}</p>
+                `;
+            } else if (format === "image") {
+                chatItem.innerHTML += `
+                    <img onerror="this.src='${content}'" src="${content}" style="width: 200px; height: auto;">
+                    <div style="display: flex; margin-top: 10px">
+                        <a href="${content}" target="_blank" class="btn btn-success date btn-sm">Download</a>
+                        <p class="date" style="margin-left:auto;">${date}</p>
+                    </div>
+                `;
+            } else if (format === "audio") {
+                chatItem.innerHTML += `
+                    <audio onerror="this.src='${content}'" controls src="${content}"></audio>
+                    <div style="display: flex; margin-top: 10px">
+                        <a href="${content}" target="_blank" class="btn btn-success date btn-sm">Download</a>
+                        <p class="date" style="margin-left:auto;">${date}</p>
+                    </div>
+                `;
+            }
+
+            return chatItem;
+        };
+
+        let nextToken = null;
+
+        const fetchData = async () => {
+            try {
+                showLoadingSpinner();
+
+                const API_KEY = 'da2-e3ybp4cw2vgdlgmie3byhf4ohe';
+                const GRAPHQL_URL = 'https://xzqpphzvbzhzvpke6ojjzvbpjq.appsync-api.ap-southeast-1.amazonaws.com/graphql';
+                const LIMIT = 10;
+
+                do {
+                    const graphqlQuery = `
+                        query MessagesByUpdateAt($nextToken: String, $limit: Int) {
+                            messagesByUpdateAt(type: "message", sortDirection: DESC, limit: $limit, nextToken: $nextToken) {
+                                items {
+                                    id
+                                    message
+                                    channelId
+                                    createdAt
+                                    updatedAt
+                                    userMessagesId
+                                    type
+                                    author {
+                                        givenName
+                                        familyName
+                                        nickname
+                                        profileImage
+                                    }
+                                    format
+                                }
+                                nextToken
+                            }
+                        }
+                    `;
+
+                    const response = await fetch(GRAPHQL_URL, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'x-api-key': API_KEY,
+                        },
+                        body: JSON.stringify({
+                            query: graphqlQuery,
+                            variables: {
+                                nextToken,
+                                limit: LIMIT,
+                            },
+                        }),
+                    });
+
+                    const data = await response.json();
+
+                    const messages = data.data.messagesByUpdateAt.items;
+                    nextToken = data.data.messagesByUpdateAt.nextToken;
+
+                    messages.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+                    messages.forEach(message => {
+                        const messageElement = createMessageElement(message);
+                        dataContainer.appendChild(messageElement);
+                    });
+                } while (nextToken);
+
+                hideLoadingSpinner();
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                hideLoadingSpinner();
+            }
+        };
+
+        const redirectToMember = () => {
+            const memberDropdown = document.getElementById('memberDropdown');
+            const selectedMember = memberDropdown.value;
+
+            if (selectedMember !== "#") {
+                const redirectURL = `https://kiddii.vercel.app/${encodeURIComponent(selectedMember)}/`;
+                window.location.href = redirectURL;
+            } else {
+                alert("Pilihlah anggota terlebih dahulu.");
+            }
+        };
+
+        fetchData();
+    </script>
+</body>
+
+</html>
