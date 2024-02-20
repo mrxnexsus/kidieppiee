@@ -11,15 +11,42 @@
 
 <body style="background-image: url(https://jkt48.primesse.me/images/top_background.png)">
     <h1>Made By kiddie</h1>
-    
-    <!-- Sertakan file dropdown.html -->
-    <link rel="import" href="dropdown.html">
-    <button onclick="redirectToMember()">Go</button>
+
+    <!-- Tambahkan tempat untuk menempatkan elemen dropdown -->
+    <center>
+    <div id="buttonContainer">
+        <div id="dropdownContainer"></div>
+        <button onclick="redirectToMember()">Go</button>
+    </div></center>
     <div id="data-container"></div>
     <div class="loading-spinner" id="loadingSpinner"></div>
 
     <script>
-        alert("pake wifi aja deh!!!!!!");
+        // Fungsi untuk menyertakan dropdown.html ke dalam index.html
+        function includeDropdown() {
+            const dropdownContainer = document.getElementById('dropdownContainer');
+
+            // Buat objek XMLHttpRequest untuk memuat konten dropdown.html
+            const xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        // Isi dropdownContainer dengan isi dropdown.html
+                        dropdownContainer.innerHTML = xhr.responseText;
+                    } else {
+                        console.error('Failed to load dropdown.html');
+                    }
+                }
+            };
+
+            // Mulai memuat dropdown.html
+            xhr.open('GET', 'dropdown.html', true);
+            xhr.send();
+        }
+
+        // Panggil fungsi untuk menyertakan dropdown.html
+        includeDropdown();
+
         const dataContainer = document.getElementById('data-container');
 
         // Fungsi untuk memeriksa apakah sudah mencapai bagian bawah
