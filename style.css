@@ -11,6 +11,15 @@
             color: black;
             margin-bottom: 20px;
         }
+        #buttonContainer {
+            display: flex;
+            gap: 10px;
+        }
+
+        #dropdownContainer {
+            margin-right: 10px;
+        }
+
 
         label {
             display: block;
