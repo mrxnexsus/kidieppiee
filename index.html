@@ -26,9 +26,11 @@
                         if (entry.attachments && entry.attachments.length > 0) {
                             entry.attachments.forEach(attachment => {
                                 const filePath = attachment.file_path;
-                                const linkElement = document.createElement('p');
-                                linkElement.innerHTML = `File Path: <a href="https://production.jkt48pm.my.id/${filePath}" target="_blank">https://production.jkt48pm.my.id/${filePath}</a>`;
-                                messageElement.appendChild(linkElement);
+                                const imgElement = document.createElement('img');
+                                imgElement.src = `https://production.jkt48pm.my.id/${filePath}`;
+                                imgElement.alt = 'Attachment Image';
+                                imgElement.style.maxWidth = '100%'; // Ensures the image fits within the container
+                                messageElement.appendChild(imgElement);
                             });
                         }
 
