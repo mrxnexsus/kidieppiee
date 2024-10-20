@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idol Messages</title>
+</head>
+<body>
+    <h1>Idol Messages</h1>
+    <div id="messages"></div>
+
+    <script>
+        async function fetchAndDisplayMessages(jsonFile) {
+            try {
+                const response = await fetch(jsonFile);
+                const data = await response.json();
+
+                if (data.success && data.code === 200) {
+                    const messagesDiv = document.getElementById('messages');
+                    data.data.forEach(entry => {
+                        const idolName = entry.idol_name;
+                        const message = entry.message || "No message provided";
+                        const messageElement = document.createElement('div');
+                        messageElement.innerHTML = `<h2>Idol Name: ${idolName}</h2><p>Message: ${message}</p>`;
+
+                        if (entry.attachments && entry.attachments.length > 0) {
+                            entry.attachments.forEach(attachment => {
+                                const filePath = attachment.file_path;
+                                const linkElement = document.createElement('p');
+                                linkElement.innerHTML = `File Path: <a href="https://production.jkt48pm.my.id/${filePath}" target="_blank">https://production.jkt48pm.my.id/${filePath}</a>`;
+                                messageElement.appendChild(linkElement);
+                            });
+                        }
+
+                        messageElement.innerHTML += '<hr>';
+                        messagesDiv.appendChild(messageElement);
+                    });
+                } else {
+                    console.error(`Failed to retrieve data from ${jsonFile}`);
+                }
+            } catch (error) {
+                console.error(`Error fetching data from ${jsonFile}:`, error);
+            }
+        }
+
+        fetchAndDisplayMessages('jessi.json');
+        fetchAndDisplayMessages('fiony.json');
+        fetchAndDisplayMessages('indira.json');
+    </script>
+</body>
+</html>
