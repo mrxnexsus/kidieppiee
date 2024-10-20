@@ -1,0 +1,723 @@
+{
+	"success": true,
+	"code": 200,
+	"message": "User conversation",
+	"data": [
+		{
+			"message_id": "d2c9a0af-304d-4d6d-8f15-c907ead52b09",
+			"message": "bukan risol mayo😾",
+			"created_at": "2024-10-20T15:32:58.892Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 2,
+					"message_id": "d2c9a0af-304d-4d6d-8f15-c907ead52b09"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 1,
+					"message_id": "d2c9a0af-304d-4d6d-8f15-c907ead52b09"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "04164b66-8a0f-4d39-8d04-e920558a33c5",
+			"message": "",
+			"created_at": "2024-10-20T15:32:52.900Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 3,
+					"message_id": "04164b66-8a0f-4d39-8d04-e920558a33c5"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "04164b66-8a0f-4d39-8d04-e920558a33c5"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "cf91d95d-4af4-4f98-906c-e280690a89d3",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729438372669.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1260267,
+					"checksum": "692523a588546e8036782944fd5996b252d5383f",
+					"created_at": "2024-10-20T15:32:52.900Z",
+					"message_id": "04164b66-8a0f-4d39-8d04-e920558a33c5"
+				}
+			]
+		},
+		{
+			"message_id": "c1645308-74c6-44c0-962d-63d077fc2eb2",
+			"message": "aku lanjut kegiatan duluu!! 👋🏻",
+			"created_at": "2024-10-20T14:11:44.269Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 8,
+					"message_id": "c1645308-74c6-44c0-962d-63d077fc2eb2"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "2ecca10e-17a6-427b-a8f6-2c47cd02e975",
+			"message": "eh maaf yh kalo ada yg ke double fotonya😅",
+			"created_at": "2024-10-20T14:11:02.042Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "2ecca10e-17a6-427b-a8f6-2c47cd02e975"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "2ecca10e-17a6-427b-a8f6-2c47cd02e975"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 2,
+					"message_id": "2ecca10e-17a6-427b-a8f6-2c47cd02e975"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "2ecca10e-17a6-427b-a8f6-2c47cd02e975"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "c2b56fd5-26c8-4c07-896e-0e7c94377c2e",
+			"message": "",
+			"created_at": "2024-10-20T14:10:10.852Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 9,
+					"message_id": "c2b56fd5-26c8-4c07-896e-0e7c94377c2e"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "c2b56fd5-26c8-4c07-896e-0e7c94377c2e"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 3,
+					"message_id": "c2b56fd5-26c8-4c07-896e-0e7c94377c2e"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "2a1e6a5b-1fc3-40dc-898c-deca1decbbc6",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433410493.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1280749,
+					"checksum": "0ec69b83237557f2426ab437b11a3b382b84f282",
+					"created_at": "2024-10-20T14:10:10.852Z",
+					"message_id": "c2b56fd5-26c8-4c07-896e-0e7c94377c2e"
+				}
+			]
+		},
+		{
+			"message_id": "79290395-ae87-4cca-afc2-78e11dba5abd",
+			"message": "",
+			"created_at": "2024-10-20T14:09:49.052Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "79290395-ae87-4cca-afc2-78e11dba5abd"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 5,
+					"message_id": "79290395-ae87-4cca-afc2-78e11dba5abd"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "962d2621-2226-4e3e-8d4b-c331c1a5b0d8",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433388820.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1206924,
+					"checksum": "a7b5bdc8bb0bf1cf4087e9df54a157a857c09f1e",
+					"created_at": "2024-10-20T14:09:49.052Z",
+					"message_id": "79290395-ae87-4cca-afc2-78e11dba5abd"
+				}
+			]
+		},
+		{
+			"message_id": "28efd956-52a6-44aa-b233-3961006c0512",
+			"message": "",
+			"created_at": "2024-10-20T14:09:48.996Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 3,
+					"message_id": "28efd956-52a6-44aa-b233-3961006c0512"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "28efd956-52a6-44aa-b233-3961006c0512"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "3efa0fa6-4fc0-4551-84c7-d45b92b4571f",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433388780.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1225147,
+					"checksum": "6d7e7082475e6c33b82d6f56691b44cc91f782a6",
+					"created_at": "2024-10-20T14:09:48.996Z",
+					"message_id": "28efd956-52a6-44aa-b233-3961006c0512"
+				}
+			]
+		},
+		{
+			"message_id": "47b04b8e-0cae-47b2-8a0a-a230f2be704e",
+			"message": "",
+			"created_at": "2024-10-20T14:08:59.735Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 8,
+					"message_id": "47b04b8e-0cae-47b2-8a0a-a230f2be704e"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "47b04b8e-0cae-47b2-8a0a-a230f2be704e"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "23d30a33-c8a1-4901-ae13-c3ff37e16717",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433339512.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1162304,
+					"checksum": "1428d9de5fa7af3975e9bd88f230b1af219377c8",
+					"created_at": "2024-10-20T14:08:59.735Z",
+					"message_id": "47b04b8e-0cae-47b2-8a0a-a230f2be704e"
+				}
+			]
+		},
+		{
+			"message_id": "c85fa520-673f-4e8b-bb93-bbbcb57b2b96",
+			"message": "",
+			"created_at": "2024-10-20T14:08:59.673Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "c85fa520-673f-4e8b-bb93-bbbcb57b2b96"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 7,
+					"message_id": "c85fa520-673f-4e8b-bb93-bbbcb57b2b96"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "9c5954a8-ba53-4913-9b0d-3a90ac2b8a4e",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433339437.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1231135,
+					"checksum": "0ba5b904c8c1185264d69e6d06aa729f0fe597cd",
+					"created_at": "2024-10-20T14:08:59.673Z",
+					"message_id": "c85fa520-673f-4e8b-bb93-bbbcb57b2b96"
+				}
+			]
+		},
+		{
+			"message_id": "001af2fe-31ce-4b4f-be56-f8bd96d1fbcf",
+			"message": "",
+			"created_at": "2024-10-20T14:08:35.542Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 5,
+					"message_id": "001af2fe-31ce-4b4f-be56-f8bd96d1fbcf"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "001af2fe-31ce-4b4f-be56-f8bd96d1fbcf"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "48cb2719-91b0-4531-8d53-19ec8f2f809a",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433315348.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1173467,
+					"checksum": "31fef657417b2a4a9cd63ef0d8589c4aab83cbe7",
+					"created_at": "2024-10-20T14:08:35.542Z",
+					"message_id": "001af2fe-31ce-4b4f-be56-f8bd96d1fbcf"
+				}
+			]
+		},
+		{
+			"message_id": "cbcaf9db-1907-4eb3-bf4f-061800b3f3e2",
+			"message": "",
+			"created_at": "2024-10-20T14:08:27.607Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "cbcaf9db-1907-4eb3-bf4f-061800b3f3e2"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "2bd682de-2578-40ef-9d5a-3ff972e759bd",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433307262.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1290087,
+					"checksum": "3045ffd0f28f18dc6979ba18c92059c5c9a877db",
+					"created_at": "2024-10-20T14:08:27.607Z",
+					"message_id": "cbcaf9db-1907-4eb3-bf4f-061800b3f3e2"
+				}
+			]
+		},
+		{
+			"message_id": "f4e893f4-2e13-4b95-ab04-7cb90455c509",
+			"message": "",
+			"created_at": "2024-10-20T14:07:51.798Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 2,
+					"message_id": "f4e893f4-2e13-4b95-ab04-7cb90455c509"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "a4c2e302-b2ff-49d4-80da-6e08c8c30f6d",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433271611.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1253997,
+					"checksum": "61268578697eb59fd97e0f6c8312450b62d5adaf",
+					"created_at": "2024-10-20T14:07:51.798Z",
+					"message_id": "f4e893f4-2e13-4b95-ab04-7cb90455c509"
+				}
+			]
+		},
+		{
+			"message_id": "01e7f2bd-2b98-46cc-afda-db9beb72a05f",
+			"message": "",
+			"created_at": "2024-10-20T14:06:21.787Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "01e7f2bd-2b98-46cc-afda-db9beb72a05f"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 4,
+					"message_id": "01e7f2bd-2b98-46cc-afda-db9beb72a05f"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "dd1e895b-0997-46d4-b12d-01bd6e063192",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433181534.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1309558,
+					"checksum": "c83b1ebff11d52a4283d54653992a464163f6d0a",
+					"created_at": "2024-10-20T14:06:21.787Z",
+					"message_id": "01e7f2bd-2b98-46cc-afda-db9beb72a05f"
+				}
+			]
+		},
+		{
+			"message_id": "7cc7af39-688c-4558-82a4-7dd060d81c1a",
+			"message": "",
+			"created_at": "2024-10-20T14:06:21.435Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "7cc7af39-688c-4558-82a4-7dd060d81c1a"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 2,
+					"message_id": "7cc7af39-688c-4558-82a4-7dd060d81c1a"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "dfa058e4-61e6-435b-8637-d23b788ac37a",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433181121.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1110837,
+					"checksum": "392690aade2a49f8ad1b8390095945e50d8e5c76",
+					"created_at": "2024-10-20T14:06:21.435Z",
+					"message_id": "7cc7af39-688c-4558-82a4-7dd060d81c1a"
+				}
+			]
+		},
+		{
+			"message_id": "e99e1938-86c6-4c9c-b006-bce8f27119fa",
+			"message": "",
+			"created_at": "2024-10-20T14:06:20.260Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 2,
+					"message_id": "e99e1938-86c6-4c9c-b006-bce8f27119fa"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "16a23d6f-b4e4-49df-9e7e-e78d76544cc1",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433180149.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 657882,
+					"checksum": "2ebb6a173588b616ab3b31474f9fbccc476d2472",
+					"created_at": "2024-10-20T14:06:20.260Z",
+					"message_id": "e99e1938-86c6-4c9c-b006-bce8f27119fa"
+				}
+			]
+		},
+		{
+			"message_id": "e5c2c418-faf8-4648-bd13-c20f79daf893",
+			"message": "",
+			"created_at": "2024-10-20T14:06:19.756Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "e5c2c418-faf8-4648-bd13-c20f79daf893"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "864df5b5-cce3-4975-93fb-84663d39df09",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433179599.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 664780,
+					"checksum": "acf736a9aab933fa63280d1d974cb08d2f6d9249",
+					"created_at": "2024-10-20T14:06:19.756Z",
+					"message_id": "e5c2c418-faf8-4648-bd13-c20f79daf893"
+				}
+			]
+		},
+		{
+			"message_id": "9d4f432f-3322-4cf8-906c-bc65259c5de3",
+			"message": "",
+			"created_at": "2024-10-20T14:06:19.250Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 4,
+					"message_id": "9d4f432f-3322-4cf8-906c-bc65259c5de3"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "c643592f-df23-4cbf-8ae0-7431d91417bf",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433178912.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1162304,
+					"checksum": "1428d9de5fa7af3975e9bd88f230b1af219377c8",
+					"created_at": "2024-10-20T14:06:19.250Z",
+					"message_id": "9d4f432f-3322-4cf8-906c-bc65259c5de3"
+				}
+			]
+		},
+		{
+			"message_id": "c05777b4-3eb9-4e3c-ac92-29f2b312cc9f",
+			"message": "",
+			"created_at": "2024-10-20T14:06:19.098Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 6,
+					"message_id": "c05777b4-3eb9-4e3c-ac92-29f2b312cc9f"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "fedbde28-1725-4767-993d-cd9ab7a92c9e",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433178812.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1206924,
+					"checksum": "a7b5bdc8bb0bf1cf4087e9df54a157a857c09f1e",
+					"created_at": "2024-10-20T14:06:19.098Z",
+					"message_id": "c05777b4-3eb9-4e3c-ac92-29f2b312cc9f"
+				}
+			]
+		},
+		{
+			"message_id": "d3f71847-eab7-4fc7-8d06-6340dc216514",
+			"message": "",
+			"created_at": "2024-10-20T14:06:18.688Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 3,
+					"message_id": "d3f71847-eab7-4fc7-8d06-6340dc216514"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 12,
+					"message_id": "d3f71847-eab7-4fc7-8d06-6340dc216514"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "ed0717ae-7279-4ca6-b635-3265deeba0e4",
+					"file_path": "static/conversation/27fc5578-e14b-4844-9dae-24fc2a177e66/attachments-1729433178557.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 694686,
+					"checksum": "6c91669c6f82f1fe97e5e10a587e803e4488fc79",
+					"created_at": "2024-10-20T14:06:18.688Z",
+					"message_id": "d3f71847-eab7-4fc7-8d06-6340dc216514"
+				}
+			]
+		},
+		{
+			"message_id": "0be4cb33-2ff7-44ff-b878-eb5ef975e040",
+			"message": "yang selca aja duluu kali yaa",
+			"created_at": "2024-10-20T14:05:40.370Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "0be4cb33-2ff7-44ff-b878-eb5ef975e040"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "9cd43258-e88a-4f41-867a-a86ce859e378",
+			"message": "dari yg gen fm jugaaa banyakk",
+			"created_at": "2024-10-20T14:03:01.302Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 2,
+					"message_id": "9cd43258-e88a-4f41-867a-a86ce859e378"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "9cd43258-e88a-4f41-867a-a86ce859e378"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "9cd43258-e88a-4f41-867a-a86ce859e378"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "db13e566-e92e-42f4-bf5c-f2a37890a616",
+			"message": "ternyata udah banyakk banget yg belom sempet aku share!!!",
+			"created_at": "2024-10-20T14:02:49.643Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "db13e566-e92e-42f4-bf5c-f2a37890a616"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 2,
+					"message_id": "db13e566-e92e-42f4-bf5c-f2a37890a616"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "f2a8b9bd-9b7b-4d4a-a040-f8fdb4d3f5ea",
+			"message": "tadi sambil nunggu ngisi tts sama kak flora😂",
+			"created_at": "2024-10-20T14:02:11.343Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "f2a8b9bd-9b7b-4d4a-a040-f8fdb4d3f5ea"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "f2a8b9bd-9b7b-4d4a-a040-f8fdb4d3f5ea"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "aae4a433-b0cc-4f17-9ef6-bbe74f796a5c",
+			"message": "aku baru mau kegiataann sekarang!!",
+			"created_at": "2024-10-20T14:01:56.909Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "aae4a433-b0cc-4f17-9ef6-bbe74f796a5c"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "aae4a433-b0cc-4f17-9ef6-bbe74f796a5c"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78",
+			"message": "haloooo",
+			"created_at": "2024-10-20T10:21:16.544Z",
+			"idol_id": "JKT48-30",
+			"idol_name": "Indira Seruni",
+			"idol_nickname": "Indira JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CRYING",
+					"reaction_count": 3,
+					"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 5,
+					"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 7,
+					"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 5,
+					"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 24,
+					"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78"
+				},
+				{
+					"emoji": "ANGRY",
+					"reaction_count": 3,
+					"message_id": "5b4a6c26-64e9-4c4c-93e0-9083be8ffd78"
+				}
+			],
+			"attachments": []
+		}
+	],
+	"meta": {
+		"page": 1,
+		"pageSize": 100,
+		"orderBy": "created_at",
+		"orderDirection": "DESC"
+	}
+}

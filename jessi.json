@@ -1,0 +1,599 @@
+{
+	"success": true,
+	"code": 200,
+	"message": "User conversation",
+	"data": [
+		{
+			"message_id": "d89b82e3-a1d1-40c3-bc7b-3149dd731945",
+			"message": "😙😙😙",
+			"created_at": "2024-10-20T15:51:55.946Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "ANGRY",
+					"reaction_count": 1,
+					"message_id": "d89b82e3-a1d1-40c3-bc7b-3149dd731945"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "d89b82e3-a1d1-40c3-bc7b-3149dd731945"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "a39ee5cb-86c8-4bc3-b2ad-68d993f2f46b",
+			"message": "DAH DI RUMAH AKU",
+			"created_at": "2024-10-20T15:51:49.776Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "a39ee5cb-86c8-4bc3-b2ad-68d993f2f46b"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "b73f3515-38c6-4bea-acb9-27aa142cbf80",
+			"message": "JAWABJECI NYA MANA",
+			"created_at": "2024-10-20T15:32:52.777Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 2,
+					"message_id": "b73f3515-38c6-4bea-acb9-27aa142cbf80"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "b73f3515-38c6-4bea-acb9-27aa142cbf80"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 2,
+					"message_id": "b73f3515-38c6-4bea-acb9-27aa142cbf80"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 1,
+					"message_id": "b73f3515-38c6-4bea-acb9-27aa142cbf80"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "6849087a-356d-480a-b103-059b1e05d068",
+			"message": "PM AKU MASUK GAKKKKKK",
+			"created_at": "2024-10-20T15:32:48.149Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "6849087a-356d-480a-b103-059b1e05d068"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "4a2e3c70-2cdd-4066-a6ec-f703412ea8f9",
+			"message": "abis show selalu lapar",
+			"created_at": "2024-10-20T13:33:07.134Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "4a2e3c70-2cdd-4066-a6ec-f703412ea8f9"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 1,
+					"message_id": "4a2e3c70-2cdd-4066-a6ec-f703412ea8f9"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "4a2e3c70-2cdd-4066-a6ec-f703412ea8f9"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "fc872f9f-0dc4-46dd-aa06-b3867ec62d9e",
+			"message": "mau mam juga laper bgttt",
+			"created_at": "2024-10-20T13:32:58.712Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 2,
+					"message_id": "fc872f9f-0dc4-46dd-aa06-b3867ec62d9e"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "47aca2e8-27ea-4927-8aa7-0a8aec1e9cdf",
+			"message": "dia ultah tgl 20 kmrn",
+			"created_at": "2024-10-20T13:32:50.006Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [],
+			"attachments": []
+		},
+		{
+			"message_id": "d82bcb98-6c0b-4b55-8bec-9b3d3d43fa3e",
+			"message": "aku abis ini mau ke makan makan ultah adek aku dlu",
+			"created_at": "2024-10-20T13:32:44.888Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "d82bcb98-6c0b-4b55-8bec-9b3d3d43fa3e"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "d82bcb98-6c0b-4b55-8bec-9b3d3d43fa3e"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "9d3a9fbd-28f8-4388-a296-7a1702ee0b62",
+			"message": "aku masih cocok twintail kannnnn😆",
+			"created_at": "2024-10-20T12:30:42.532Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 5,
+					"message_id": "9d3a9fbd-28f8-4388-a296-7a1702ee0b62"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 2,
+					"message_id": "9d3a9fbd-28f8-4388-a296-7a1702ee0b62"
+				},
+				{
+					"emoji": "ANGRY",
+					"reaction_count": 1,
+					"message_id": "9d3a9fbd-28f8-4388-a296-7a1702ee0b62"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "9d3a9fbd-28f8-4388-a296-7a1702ee0b62"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 4,
+					"message_id": "9d3a9fbd-28f8-4388-a296-7a1702ee0b62"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "cf86650e-fed3-46ff-af42-f20dc0b4714b",
+			"message": "AKU HARI INI DI TWINTAIL HEHE",
+			"created_at": "2024-10-20T12:30:25.182Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "cf86650e-fed3-46ff-af42-f20dc0b4714b"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "cf86650e-fed3-46ff-af42-f20dc0b4714b"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "cf86650e-fed3-46ff-af42-f20dc0b4714b"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c",
+			"message": "",
+			"created_at": "2024-10-20T12:23:59.177Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 6,
+					"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 3,
+					"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "bd9d8f3e-2c1a-4a96-af87-d7dded1471ef",
+					"file_path": "static/conversation/d2056849-b36f-41a5-a0b1-e58560c796a5/attachments-1729427038936.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1871948,
+					"checksum": "8ffba84a7bfc8d73b9d3f1718a6ac42699f999a9",
+					"created_at": "2024-10-20T12:23:59.177Z",
+					"message_id": "7f724512-5fe2-4caf-a40f-9fd51964564c"
+				}
+			]
+		},
+		{
+			"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e",
+			"message": "",
+			"created_at": "2024-10-20T12:23:51.002Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 3,
+					"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 3,
+					"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "614768d6-5959-4813-bcb5-73c2ceb4fced",
+					"file_path": "static/conversation/d2056849-b36f-41a5-a0b1-e58560c796a5/attachments-1729427030750.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1808142,
+					"checksum": "1b53fe0d3213dd16bba25b984e7ec58fe746bc8d",
+					"created_at": "2024-10-20T12:23:51.002Z",
+					"message_id": "9e9c2428-8d03-4f8e-a804-baa7cec79b5e"
+				}
+			]
+		},
+		{
+			"message_id": "19bee428-fe0c-4b34-9ba0-4f442283dd24",
+			"message": "",
+			"created_at": "2024-10-20T12:21:25.663Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 10,
+					"message_id": "19bee428-fe0c-4b34-9ba0-4f442283dd24"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 4,
+					"message_id": "19bee428-fe0c-4b34-9ba0-4f442283dd24"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "19bee428-fe0c-4b34-9ba0-4f442283dd24"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "53cb2121-c657-4259-9823-c72e7a01154c",
+					"file_path": "static/conversation/d2056849-b36f-41a5-a0b1-e58560c796a5/attachments-1729426885451.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1671081,
+					"checksum": "e7daed85737f5e867f989f3dd3e551983655da20",
+					"created_at": "2024-10-20T12:21:25.663Z",
+					"message_id": "19bee428-fe0c-4b34-9ba0-4f442283dd24"
+				}
+			]
+		},
+		{
+			"message_id": "87f323f0-e6bd-4b6a-81d9-ac9543656618",
+			"message": "",
+			"created_at": "2024-10-20T12:20:35.330Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 4,
+					"message_id": "87f323f0-e6bd-4b6a-81d9-ac9543656618"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 7,
+					"message_id": "87f323f0-e6bd-4b6a-81d9-ac9543656618"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "be83cbbc-7890-45b2-b90f-dfe1f92c9b64",
+					"file_path": "static/conversation/d2056849-b36f-41a5-a0b1-e58560c796a5/attachments-1729426835025.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1648120,
+					"checksum": "8dc5366ef958bee89a484de1c405e10174f4cd6a",
+					"created_at": "2024-10-20T12:20:35.330Z",
+					"message_id": "87f323f0-e6bd-4b6a-81d9-ac9543656618"
+				}
+			]
+		},
+		{
+			"message_id": "d45816b7-dea5-4e6e-b980-c809c6bb4d7b",
+			"message": "",
+			"created_at": "2024-10-20T12:20:08.859Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "d45816b7-dea5-4e6e-b980-c809c6bb4d7b"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 4,
+					"message_id": "d45816b7-dea5-4e6e-b980-c809c6bb4d7b"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 9,
+					"message_id": "d45816b7-dea5-4e6e-b980-c809c6bb4d7b"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "71054b0c-ce2d-4d4a-9212-cb9a5f0a0463",
+					"file_path": "static/conversation/d2056849-b36f-41a5-a0b1-e58560c796a5/attachments-1729426808381.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 1970444,
+					"checksum": "6089d85b6b803d22747df0592135ff0964eb2eef",
+					"created_at": "2024-10-20T12:20:08.859Z",
+					"message_id": "d45816b7-dea5-4e6e-b980-c809c6bb4d7b"
+				}
+			]
+		},
+		{
+			"message_id": "7b9c08da-1bb8-4e7e-9043-6c24093c6604",
+			"message": "aku ada pap niy",
+			"created_at": "2024-10-20T12:19:01.063Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "7b9c08da-1bb8-4e7e-9043-6c24093c6604"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "7b9c08da-1bb8-4e7e-9043-6c24093c6604"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "3480f3ad-ecf7-4068-8916-ac995db8dec1",
+			"message": "mungkin masih belum maksimal lucunya tapi liat aja next pasti akan lebih keren😎😎😎",
+			"created_at": "2024-10-20T12:18:51.665Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 4,
+					"message_id": "3480f3ad-ecf7-4068-8916-ac995db8dec1"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "3480f3ad-ecf7-4068-8916-ac995db8dec1"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "9c6ce500-6bcb-4a65-ad39-a3f4b2f7045e",
+			"message": "TADI AKU PERFORM FINLAND NOMOR 1",
+			"created_at": "2024-10-20T12:18:36.526Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "9c6ce500-6bcb-4a65-ad39-a3f4b2f7045e"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "9c6ce500-6bcb-4a65-ad39-a3f4b2f7045e"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "f0c55a5c-01c2-4dba-a317-528ad1ee656a",
+			"message": "aku sudah selesai show!!",
+			"created_at": "2024-10-20T12:18:26.174Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "f0c55a5c-01c2-4dba-a317-528ad1ee656a"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 2,
+					"message_id": "f0c55a5c-01c2-4dba-a317-528ad1ee656a"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "c0c137f9-b74f-43fb-8ae3-96809d1ec481",
+			"message": "hello",
+			"created_at": "2024-10-20T12:18:20.456Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "c0c137f9-b74f-43fb-8ae3-96809d1ec481"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46",
+			"message": "kalau dapet pm ini ketik jeci cantik",
+			"created_at": "2024-10-20T08:26:05.568Z",
+			"idol_id": "JKT48-32",
+			"idol_name": "Jessica Chandra",
+			"idol_nickname": "Jessi JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 5,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 27,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 15,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 15,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 16,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "ANGRY",
+					"reaction_count": 32,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "5719590e-4dde-4f30-ac6e-40bf502b0d46"
+				}
+			],
+			"attachments": []
+		}
+	],
+	"meta": {
+		"page": 1,
+		"pageSize": 100,
+		"orderBy": "created_at",
+		"orderDirection": "DESC"
+	}
+}

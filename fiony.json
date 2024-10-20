@@ -1,0 +1,682 @@
+{
+	"success": true,
+	"code": 200,
+	"message": "User conversation",
+	"data": [
+		{
+			"message_id": "0d4e534e-3a92-40ea-9ab0-f2c945398b3d",
+			"message": "Kamu udah kan?",
+			"created_at": "2024-10-20T14:53:28.837Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 14,
+					"message_id": "0d4e534e-3a92-40ea-9ab0-f2c945398b3d"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "0d4e534e-3a92-40ea-9ab0-f2c945398b3d"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "0d4e534e-3a92-40ea-9ab0-f2c945398b3d"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "dc777091-591e-4a8d-90ed-cea3d294edbb",
+			"message": "Di sini ada makanan sih, nanti pas break aku akan mamam hehehe 👍🏻",
+			"created_at": "2024-10-20T14:53:25.219Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "ANGRY",
+					"reaction_count": 1,
+					"message_id": "dc777091-591e-4a8d-90ed-cea3d294edbb"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "dc777091-591e-4a8d-90ed-cea3d294edbb"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "dc777091-591e-4a8d-90ed-cea3d294edbb"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 7,
+					"message_id": "dc777091-591e-4a8d-90ed-cea3d294edbb"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "204b765d-e502-406a-b85c-8d484ea40833",
+			"message": "Sebenernya belum mamam malam 😁 tapi udah banyak banget nyemil 😂😂",
+			"created_at": "2024-10-20T14:53:11.800Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "204b765d-e502-406a-b85c-8d484ea40833"
+				},
+				{
+					"emoji": "ANGRY",
+					"reaction_count": 4,
+					"message_id": "204b765d-e502-406a-b85c-8d484ea40833"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 2,
+					"message_id": "204b765d-e502-406a-b85c-8d484ea40833"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "204b765d-e502-406a-b85c-8d484ea40833"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "594d22fe-2139-4656-b4c8-0c7971ef05c6",
+			"message": "Sudah sampai di tempat kegiataaan hehe",
+			"created_at": "2024-10-20T14:52:57.301Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 2,
+					"message_id": "594d22fe-2139-4656-b4c8-0c7971ef05c6"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 2,
+					"message_id": "594d22fe-2139-4656-b4c8-0c7971ef05c6"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "594d22fe-2139-4656-b4c8-0c7971ef05c6"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "61376871-8f7d-41cc-aeff-8afc80c724d5",
+			"message": "Gimanaaaa?",
+			"created_at": "2024-10-20T12:27:59.043Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 8,
+					"message_id": "61376871-8f7d-41cc-aeff-8afc80c724d5"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 8,
+					"message_id": "61376871-8f7d-41cc-aeff-8afc80c724d5"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 9,
+					"message_id": "61376871-8f7d-41cc-aeff-8afc80c724d5"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "27638e54-3319-4afe-af19-6f0b3d7bfa88",
+			"message": "",
+			"created_at": "2024-10-20T12:27:42.838Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 22,
+					"message_id": "27638e54-3319-4afe-af19-6f0b3d7bfa88"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "27638e54-3319-4afe-af19-6f0b3d7bfa88"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 4,
+					"message_id": "27638e54-3319-4afe-af19-6f0b3d7bfa88"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 23,
+					"message_id": "27638e54-3319-4afe-af19-6f0b3d7bfa88"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "9a22b8d6-30a7-4ea7-93ad-9f2a36f6540e",
+					"file_path": "static/conversation/a8bc8720-aae6-49cc-b589-c3b26909ea92/attachments-1729427262675.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 754754,
+					"checksum": "a36dde6ebd31ae8c756b1c59e1a109a52b156e32",
+					"created_at": "2024-10-20T12:27:42.838Z",
+					"message_id": "27638e54-3319-4afe-af19-6f0b3d7bfa88"
+				}
+			]
+		},
+		{
+			"message_id": "531ba3f8-ff38-4605-b43c-3dd51b77e8b0",
+			"message": "",
+			"created_at": "2024-10-20T12:27:08.391Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 4,
+					"message_id": "531ba3f8-ff38-4605-b43c-3dd51b77e8b0"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 18,
+					"message_id": "531ba3f8-ff38-4605-b43c-3dd51b77e8b0"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 19,
+					"message_id": "531ba3f8-ff38-4605-b43c-3dd51b77e8b0"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "761b402b-5a3e-43d6-b8da-c988e3668548",
+					"file_path": "static/conversation/a8bc8720-aae6-49cc-b589-c3b26909ea92/attachments-1729427228032.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 734073,
+					"checksum": "70f51b71c63fe1371d415cf07a5e472d0303a513",
+					"created_at": "2024-10-20T12:27:08.391Z",
+					"message_id": "531ba3f8-ff38-4605-b43c-3dd51b77e8b0"
+				}
+			]
+		},
+		{
+			"message_id": "42a9d269-dc32-4b55-a835-3d93447986b1",
+			"message": "",
+			"created_at": "2024-10-20T12:27:08.219Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 4,
+					"message_id": "42a9d269-dc32-4b55-a835-3d93447986b1"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 19,
+					"message_id": "42a9d269-dc32-4b55-a835-3d93447986b1"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 19,
+					"message_id": "42a9d269-dc32-4b55-a835-3d93447986b1"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "b9a50599-d87b-49ce-8c6a-a1c8179c0c3b",
+					"file_path": "static/conversation/a8bc8720-aae6-49cc-b589-c3b26909ea92/attachments-1729427228062.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 889894,
+					"checksum": "ed1ceee44779b4445c24e49d7ff73d6f7033359c",
+					"created_at": "2024-10-20T12:27:08.219Z",
+					"message_id": "42a9d269-dc32-4b55-a835-3d93447986b1"
+				}
+			]
+		},
+		{
+			"message_id": "c431d99e-d17f-455a-a783-77b5a0d2031f",
+			"message": "Eyelinernya juga tipis aja pake yang pencil bukan yang gel liner",
+			"created_at": "2024-10-20T12:26:40.729Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "c431d99e-d17f-455a-a783-77b5a0d2031f"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "c431d99e-d17f-455a-a783-77b5a0d2031f"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "6330abc9-af93-47df-b2e3-75d958bd6318",
+			"message": "Kali ini aku coba yang lebih natural sajaa, gak pake aegyosal (kantong mata buatan WKWK) dan gak pake banyak2 glitter",
+			"created_at": "2024-10-20T12:26:26.958Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "6330abc9-af93-47df-b2e3-75d958bd6318"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "6330abc9-af93-47df-b2e3-75d958bd6318"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "2ea5c9ff-db8d-4070-bab3-bd99c18f34e3",
+			"message": "Sebenernya biasanya aku make up tuh kayak make up theater gitukan, kalo jalan2pun make upnya kayak make up theater 😂",
+			"created_at": "2024-10-20T12:26:06.727Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "2ea5c9ff-db8d-4070-bab3-bd99c18f34e3"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "2ea5c9ff-db8d-4070-bab3-bd99c18f34e3"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "2ea5c9ff-db8d-4070-bab3-bd99c18f34e3"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "06b55a66-d57d-45ec-8436-33b5e0896817",
+			"message": "Karna hari ini latihan aja, make upnya cuma tipis2 ajaa yang penting kelihatan fresh 😁",
+			"created_at": "2024-10-20T12:25:31.190Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "06b55a66-d57d-45ec-8436-33b5e0896817"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "06b55a66-d57d-45ec-8436-33b5e0896817"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "06b55a66-d57d-45ec-8436-33b5e0896817"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "e7f2878c-d16f-424c-9ee9-2c776d1c4f1d",
+			"message": "Sudah selesai make up!!",
+			"created_at": "2024-10-20T12:25:00.773Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "e7f2878c-d16f-424c-9ee9-2c776d1c4f1d"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 2,
+					"message_id": "e7f2878c-d16f-424c-9ee9-2c776d1c4f1d"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "f211a45b-7ac8-4343-b896-1fb4a3fc06a1",
+			"message": "Aku mau siap2 kegiatan dulu deh biar gak ngantuk2 mulu hahahaha",
+			"created_at": "2024-10-20T11:09:36.847Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 14,
+					"message_id": "f211a45b-7ac8-4343-b896-1fb4a3fc06a1"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "f211a45b-7ac8-4343-b896-1fb4a3fc06a1"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 2,
+					"message_id": "f211a45b-7ac8-4343-b896-1fb4a3fc06a1"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "f211a45b-7ac8-4343-b896-1fb4a3fc06a1"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "5872a328-1044-41fa-8ad5-2cd1fd3844cc",
+			"message": "Hehehe masih ngantuk ya keliatannya",
+			"created_at": "2024-10-20T11:06:31.299Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 2,
+					"message_id": "5872a328-1044-41fa-8ad5-2cd1fd3844cc"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 30,
+					"message_id": "5872a328-1044-41fa-8ad5-2cd1fd3844cc"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 2,
+					"message_id": "5872a328-1044-41fa-8ad5-2cd1fd3844cc"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 49,
+					"message_id": "5872a328-1044-41fa-8ad5-2cd1fd3844cc"
+				}
+			],
+			"attachments": [
+				{
+					"attachment_id": "d82dc3c8-eb47-4f5e-8521-287d49b8d577",
+					"file_path": "static/conversation/a8bc8720-aae6-49cc-b589-c3b26909ea92/attachments-1729422391197.jpg",
+					"file_type": "image/jpeg",
+					"file_size": 497365,
+					"checksum": "645e0223a9934108894a1281ad22094025f79b6b",
+					"created_at": "2024-10-20T11:06:31.299Z",
+					"message_id": "5872a328-1044-41fa-8ad5-2cd1fd3844cc"
+				}
+			]
+		},
+		{
+			"message_id": "242e8fcd-b09b-4841-9683-08ad3241cee1",
+			"message": "Mau coba kirim pap",
+			"created_at": "2024-10-20T11:06:01.006Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 1,
+					"message_id": "242e8fcd-b09b-4841-9683-08ad3241cee1"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "242e8fcd-b09b-4841-9683-08ad3241cee1"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "242e8fcd-b09b-4841-9683-08ad3241cee1"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "69955cc1-1c15-4821-a878-1fb695fa4faf",
+			"message": "Btw, lucu juga ya aplikasi baru, tampilannya lebih menarik kalo di aku 😂",
+			"created_at": "2024-10-20T11:05:54.086Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LIKE",
+					"reaction_count": 2,
+					"message_id": "69955cc1-1c15-4821-a878-1fb695fa4faf"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 2,
+					"message_id": "69955cc1-1c15-4821-a878-1fb695fa4faf"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 1,
+					"message_id": "69955cc1-1c15-4821-a878-1fb695fa4faf"
+				},
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "69955cc1-1c15-4821-a878-1fb695fa4faf"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "82c9f223-b0ec-4308-8950-6422006a768e",
+			"message": "wkwkkwwkk udah bosan banget nih, weekend berasa panjang banget 😂😂 untungnya malam ini aku ada latihan, jadi ada kegiatan sedikit deh",
+			"created_at": "2024-10-20T11:04:57.482Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 2,
+					"message_id": "82c9f223-b0ec-4308-8950-6422006a768e"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 3,
+					"message_id": "82c9f223-b0ec-4308-8950-6422006a768e"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 1,
+					"message_id": "82c9f223-b0ec-4308-8950-6422006a768e"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "0e0e1eb1-e501-4e06-b32c-7891f4025f56",
+			"message": "Aku tadi bobo siang dan mimpi lagi siap2 perform off air, kemarin mimpi perform ramune",
+			"created_at": "2024-10-20T11:04:31.054Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CRYING",
+					"reaction_count": 1,
+					"message_id": "0e0e1eb1-e501-4e06-b32c-7891f4025f56"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 16,
+					"message_id": "0e0e1eb1-e501-4e06-b32c-7891f4025f56"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "f358aec5-ead0-42e2-b07f-02189cf5e275",
+			"message": "Aku fomo banget liat temen2 theateran 🥲🥲",
+			"created_at": "2024-10-20T11:04:07.287Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 1,
+					"message_id": "f358aec5-ead0-42e2-b07f-02189cf5e275"
+				},
+				{
+					"emoji": "LAUGH",
+					"reaction_count": 12,
+					"message_id": "f358aec5-ead0-42e2-b07f-02189cf5e275"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 5,
+					"message_id": "f358aec5-ead0-42e2-b07f-02189cf5e275"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 3,
+					"message_id": "f358aec5-ead0-42e2-b07f-02189cf5e275"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "f358aec5-ead0-42e2-b07f-02189cf5e275"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "7627de40-3fd5-4620-bc8e-aba4d36efa8b",
+			"message": "Gimana kabarnya hari ini?",
+			"created_at": "2024-10-20T07:25:11.984Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 3,
+					"message_id": "7627de40-3fd5-4620-bc8e-aba4d36efa8b"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 8,
+					"message_id": "7627de40-3fd5-4620-bc8e-aba4d36efa8b"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 19,
+					"message_id": "7627de40-3fd5-4620-bc8e-aba4d36efa8b"
+				},
+				{
+					"emoji": "LIKE",
+					"reaction_count": 29,
+					"message_id": "7627de40-3fd5-4620-bc8e-aba4d36efa8b"
+				},
+				{
+					"emoji": "CRYING",
+					"reaction_count": 11,
+					"message_id": "7627de40-3fd5-4620-bc8e-aba4d36efa8b"
+				}
+			],
+			"attachments": []
+		},
+		{
+			"message_id": "1b67f249-45b7-4c6a-a902-c006b7945808",
+			"message": "Haiii!",
+			"created_at": "2024-10-20T07:24:44.679Z",
+			"idol_id": "JKT48-21",
+			"idol_name": "Fiony Alveria",
+			"idol_nickname": "Fiony JKT48",
+			"approved": true,
+			"reactions": [
+				{
+					"emoji": "CELEBRATION",
+					"reaction_count": 2,
+					"message_id": "1b67f249-45b7-4c6a-a902-c006b7945808"
+				},
+				{
+					"emoji": "HEART_EYES",
+					"reaction_count": 1,
+					"message_id": "1b67f249-45b7-4c6a-a902-c006b7945808"
+				},
+				{
+					"emoji": "CLAPPING",
+					"reaction_count": 1,
+					"message_id": "1b67f249-45b7-4c6a-a902-c006b7945808"
+				},
+				{
+					"emoji": "LOVE",
+					"reaction_count": 5,
+					"message_id": "1b67f249-45b7-4c6a-a902-c006b7945808"
+				}
+			],
+			"attachments": []
+		}
+	],
+	"meta": {
+		"page": 1,
+		"pageSize": 100,
+		"orderBy": "created_at",
+		"orderDirection": "DESC"
+	}
+}
