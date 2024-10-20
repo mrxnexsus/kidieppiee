@@ -1,3 +1,31 @@
+<?php
+
+function displayIdolMessages($jsonFile) {
+    $jsonData = file_get_contents($jsonFile);
+    $data = json_decode($jsonData, true);
+
+    if ($data['success'] && $data['code'] === 200) {
+        foreach ($data['data'] as $entry) {
+            $idolName = $entry['idol_name'];
+            $message = $entry['message'];
+            echo "<h2>Idol Name: $idolName</h2>";
+            echo "<p>Message: $message</p>";
+
+            if (!empty($entry['attachments'])) {
+                foreach ($entry['attachments'] as $attachment) {
+                    $filePath = $attachment['file_path'];
+                    echo "<p>File Path: <a href='@https://production.jkt48pm.my.id/$filePath'>@https://production.jkt48pm.my.id/$filePath</a></p>";
+                }
+            }
+            echo "<hr>";
+        }
+    } else {
+        echo "<p>Failed to retrieve data from $jsonFile</p>";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,47 +35,10 @@
 </head>
 <body>
     <h1>Idol Messages</h1>
-    <div id="messages"></div>
-
-    <script>
-        async function fetchAndDisplayMessages(jsonFile) {
-            try {
-                const response = await fetch(jsonFile);
-                const data = await response.json();
-
-                if (data.success && data.code === 200) {
-                    const messagesDiv = document.getElementById('messages');
-                    data.data.forEach(entry => {
-                        const idolName = entry.idol_name;
-                        const message = entry.message || "No message provided";
-                        const messageElement = document.createElement('div');
-                        messageElement.innerHTML = `<h2>Idol Name: ${idolName}</h2><p>Message: ${message}</p>`;
-
-                        if (entry.attachments && entry.attachments.length > 0) {
-                            entry.attachments.forEach(attachment => {
-                                const filePath = attachment.file_path;
-                                const imgElement = document.createElement('img');
-                                imgElement.src = `https://production.jkt48pm.my.id/${filePath}`;
-                                imgElement.alt = 'Attachment Image';
-                                imgElement.style.maxWidth = '30%'; // Ensures the image fits within the container
-                                messageElement.appendChild(imgElement);
-                            });
-                        }
-
-                        messageElement.innerHTML += '<hr>';
-                        messagesDiv.appendChild(messageElement);
-                    });
-                } else {
-                    console.error(`Failed to retrieve data from ${jsonFile}`);
-                }
-            } catch (error) {
-                console.error(`Error fetching data from ${jsonFile}:`, error);
-            }
-        }
-
-        fetchAndDisplayMessages('jessi.json');
-        fetchAndDisplayMessages('fiony.json');
-        fetchAndDisplayMessages('indira.json');
-    </script>
+    <?php
+    displayIdolMessages('jessi.json');
+    displayIdolMessages('fiony.json');
+    displayIdolMessages('indira.json');
+    ?>
 </body>
 </html>
